@@ -1,10 +1,10 @@
-package project1;
+package oops;
 
 public class privatecons {
     int a;
     double b;
     String c;
-
+//private constructor
     private privatecons() {
         a = 10;
         b = 30.56;
@@ -13,6 +13,6 @@ public class privatecons {
     }
 
     public static void main(String[] args) {
-        privatecons r = new privatecons();
+        privatecons r = new privatecons(); // object creation
     }
 }
