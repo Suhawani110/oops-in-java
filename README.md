@@ -4,98 +4,96 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 This repository demonstrates practical examples of all key OOP concepts, from basic to advanced, to help learners understand and apply them effectively.
 
-Core OOP Concepts
+ Core OOP Concepts
 
-Class & Object
+1.Class & Object
 
-Classes define the blueprint of objects.
+  ->Classes define the blueprint of objects.
 
-Objects are instances of classes.
+  ->Objects are instances of classes.
 
-Encapsulation
+2.Encapsulation
 
-Wrapping data (variables) and methods together.
+  ->Wrapping data (variables) and methods together.
 
-Use of private fields and public getters/setters.
+  ->Use of private fields and public getters/setters.
 
-Inheritance
+3.Inheritance
 
-Enables a class to inherit properties and methods of another class.
+  ->Enables a class to inherit properties and methods of another class.
 
-Promotes code reusability.
+  ->Promotes code reusability.
 
-Polymorphism
+4.Polymorphism
 
-Compile-time (Method Overloading) and Runtime (Method Overriding).
+  ->Compile-time (Method Overloading) and Runtime (Method Overriding).
 
-Allows objects to take multiple forms.
+  ->Allows objects to take multiple forms.
 
-Abstraction
+5.Abstraction
 
-Hiding internal implementation and showing only functionality.
+  ->Hiding internal implementation and showing only functionality.
 
-Achieved via abstract classes and interfaces.
+  ->Achieved via abstract classes and interfaces.
 
-Interface & Abstract Class
+6.Interface & Abstract Class
 
-Interfaces define a contract that implementing classes must follow.
+  ->Interfaces define a contract that implementing classes must follow.
 
-Abstract classes provide partial implementation and can include abstract methods.
+  ->Abstract classes provide partial implementation and can include abstract methods.
 
-Additional OOP Concepts
+7.Constructors
 
-Constructors
+  ->Special methods to initialize objects.
 
-Special methods to initialize objects.
+  ->Types: default, parameterized, copy constructors.
 
-Types: default, parameterized, copy constructors.
+8.Static Members
 
-Static Members
+  ->static fields and methods belong to the class rather than objects.
 
-static fields and methods belong to the class rather than objects.
+9.Final Keyword
 
-Final Keyword
+  ->Final variables, methods, and classes to prevent modification, overriding, or inheritance.
 
-Final variables, methods, and classes to prevent modification, overriding, or inheritance.
+10.Packages & Access Modifiers
 
-Packages & Access Modifiers
+  ->Organize classes into packages.
 
-Organize classes into packages.
+  ->Access levels: public, private, protected, default.
 
-Access levels: public, private, protected, default.
+11.Nested & Inner Classes
 
-Nested & Inner Classes
+  ->Classes defined inside other classes (static or non-static).
 
-Classes defined inside other classes (static or non-static).
+12.Method Overloading vs Overriding
 
-Method Overloading vs Overriding
+  ->Overloading: same method name, different parameters (compile-time).
 
-Overloading: same method name, different parameters (compile-time).
+  ->Overriding: subclass redefines parent method (runtime).
 
-Overriding: subclass redefines parent method (runtime).
+13.This & Super Keywords
 
-This & Super Keywords
+  ->this refers to current object.
 
-this refers to current object.
+  ->super refers to parent class members.
 
-super refers to parent class members.
+14.Object Class & Its Methods
 
-Object Class & Its Methods
+  ->toString(), equals(), hashCode(), clone().
 
-toString(), equals(), hashCode(), clone().
+  ->All Java classes inherit from Object.
 
-All Java classes inherit from Object.
+15.Composition & Aggregation
 
-Composition & Aggregation
+  ->Represent "has-a" relationships between classes.
 
-Represent "has-a" relationships between classes.
+16.Exception Handling (OOP Perspective)
 
-Exception Handling (OOP Perspective)
+  ->Exceptions use inheritance and polymorphism (try-catch, custom exceptions).
 
-Exceptions use inheritance and polymorphism (try-catch, custom exceptions).
+17.Java 8+ OOP Features
 
-Java 8+ OOP Features
+  ->Default and static methods in interfaces.
 
-Default and static methods in interfaces.
-
-Lambda expressions for functional interfaces.
+  ->Lambda expressions for functional interfaces.ns for functional interfaces.
